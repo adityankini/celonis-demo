@@ -7,7 +7,7 @@ import { CelonisButtonComponent } from '@celonis-demo/shared-ui';
   imports: [CelonisButtonComponent],
   template: `
     <h1>Analytics Dashboard</h1>
-    <lib-celonis-button label="Celonis Rocks2"></lib-celonis-button>
+    <lib-celonis-button label="Celonis Rocks"></lib-celonis-button>
   `,
 })
 export class AnalyticsDashboardComponent {}

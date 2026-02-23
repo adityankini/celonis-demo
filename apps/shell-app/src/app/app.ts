@@ -1,9 +1,9 @@
 import { Component } from '@angular/core';
 import { RouterModule } from '@angular/router';
-import { NxWelcome } from './nx-welcome';
+import { AnalyticsDashboardComponent } from '@celonis-demo/analytics-dashboard';
 
 @Component({
-  imports: [NxWelcome, RouterModule],
+  imports: [RouterModule, AnalyticsDashboardComponent],
   selector: 'app-root',
   templateUrl: './app.html',
   styleUrl: './app.scss',
